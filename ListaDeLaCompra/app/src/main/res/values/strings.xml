@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">shopping</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="add">+</string>
+	<string name="empty"></string>
+	<string name="preview">Un posible ítem</string>
+	
+	<string name="confirm_title">Confirmación</string>
+	<string name="confirm_text">Seguro que quieres borrar el ítem?</string>
+	<string name="erase">Borra</string>
+</resources>
