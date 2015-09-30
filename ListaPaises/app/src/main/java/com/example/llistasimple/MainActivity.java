@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         
         list = (ListView)findViewById(R.id.llista);
-        countries = getResources().getStringArray(R.array.paisos);
+        countries = getResources().getStringArray(R.array.countries);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, countries);
         list.setAdapter(adapter);
         
@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> parent, View view, int pos, long id) {
 				Toast.makeText(
 						MainActivity.this,
-						String.format("Has seleccionat \"%s\"", countries[pos]),
+						String.format("Has seleccionado \"%s\"", countries[pos]),
 						Toast.LENGTH_SHORT
 				).show();
 			}
