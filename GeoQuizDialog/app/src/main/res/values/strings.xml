@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GeoQuizDialog</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="mark">Your Mark</string>
+
+    <array name="questions">
+        <item>La capital de França és?;Paris;Munich;Copenhagen;Madrid;0</item>
+        <item>La capital de Brasil és?;Rio de Janeiro;Brasilia;Buenos Aires;Montevideo;1</item>
+    </array>
+</resources>

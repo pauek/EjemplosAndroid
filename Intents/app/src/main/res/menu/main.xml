@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="onHelp"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/ajuda"
+        />
+</menu>
