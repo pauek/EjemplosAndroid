@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Intents</string>
-    <string name="ajuda">Ajuda</string>
+    <string name="app_name">EditShowHTML</string>
+    <string name="ajuda">Help</string>
     <string name="hello_world">Hello world!</string>
-    <string name="edita">Edita</string>
-    <string name="mostra">Mostra</string>
-    <string name="fet">Fet</string>
+    <string name="edita">Edit</string>
+    <string name="mostra">Show</string>
+    <string name="fet">Done</string>
 
+    <string name="initial_html"><![CDATA[<p>This is HTML, <b>how awesome</b>! </p>]]></string>
 </resources>

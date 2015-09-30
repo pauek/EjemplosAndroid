@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EditShowHTML</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="edita">Edita</string>
+    <string name="fet">Fet</string>
+    <string name="hello_world">Hola Món!</string>
+    <string name="mostra">Mostra</string>
+    <string name="initial_html"><![CDATA[<p>Això és HTML, <b>com mola</b>! </p>]]></string>
+</resources>

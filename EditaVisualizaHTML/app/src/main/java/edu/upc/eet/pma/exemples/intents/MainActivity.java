@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		mHtml = "<p>Aixo es <b>HTML</b>, com mola!</p>";
+		mHtml = getResources().getString(R.string.initial_html);
 		mHtmlView = (TextView)findViewById(R.id.html);
 		mHtmlView.setText(mHtml);
 	}

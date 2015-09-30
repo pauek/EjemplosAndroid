@@ -2,7 +2,7 @@
     <item
         android:id="@+id/action_help"
         android:orderInCategory="100"
-        android:showAsAction="never"
+        android:showAsAction="ifRoom"
         android:onClick="onHelp"
         android:icon="@android:drawable/ic_menu_help"
         android:title="@string/ajuda"
